@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Quadratic_Equation_Solver //Identifier: {_|a..z|A..Z}{_|a..z|A..Z|0..9}*
 {
-    //HelloWorld!
     class Program //{access modifier?} class {identifier}
     {
         public struct QuadtraticEquation
