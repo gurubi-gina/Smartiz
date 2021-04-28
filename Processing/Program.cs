@@ -22,7 +22,7 @@ namespace Processing
             Size(600, 600);
             Background(21, 34, 56);
 
-            Tongue = new Tongue(Width, Height) { X = 20, Y = 30 } ;
+            Tongue = new Tongue(Width, Height);
             Snowflakes = new SnowflakeClass[50];
 
             Counter = Snowflakes.Length - 10;

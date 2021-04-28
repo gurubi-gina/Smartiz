@@ -8,6 +8,7 @@ namespace Processing
 {
     public class SnowflakeClass : DrawableObject
     {
+        //HelloWorld!
         public double X { get; set; }
         public double Y { get; set; }
         public double Size { get; }
