@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quadratic Equation Solver",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euclidean Algorithm", "Euclidean Algorithm\Euclidean Algorithm.csproj", "{1C397F86-95A0-4471-9867-87357535F787}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polinom Plot", "Polinom Plot\Polinom Plot.csproj", "{B7CF1EF1-352B-4E5F-91BA-411E76569F8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1C397F86-95A0-4471-9867-87357535F787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C397F86-95A0-4471-9867-87357535F787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C397F86-95A0-4471-9867-87357535F787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7CF1EF1-352B-4E5F-91BA-411E76569F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7CF1EF1-352B-4E5F-91BA-411E76569F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7CF1EF1-352B-4E5F-91BA-411E76569F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7CF1EF1-352B-4E5F-91BA-411E76569F8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -26,9 +26,10 @@ namespace Euclidean_Algorithm
             }
 
             Console.WriteLine(a);
+            Console.ReadLine();
         }
 
-        public int[] InputArray()
+        public static int[] InputArray()
         {
             int n = ReadNumber("Hány számot szeretnél megadni? ");
             int[] numbers = new int[n];
@@ -40,7 +41,7 @@ namespace Euclidean_Algorithm
             return numbers;
         }
 
-        public int ReadNumber(string message = null)
+        public static int ReadNumber(string message = null)
         {
             Console.Write(message ?? "Kérlek adj meg egy számot! ");
             while (true)
