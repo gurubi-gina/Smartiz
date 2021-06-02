@@ -39,7 +39,10 @@ namespace Polinom_Plot
             RposX = TposX + 60;
             Button1 = new Button(RposX, TposY - 15, ButtonWidth, ButtonHeight);
             Button2 = new Button(RposX, TposY - 15 + ButtonHeight, ButtonWidth, ButtonHeight);
-            //TODO: Create Button3,4,5,6
+            Button3 = new Button(RposX, TposY + 25, ButtonWidth, ButtonHeight);
+            Button4 = new Button(RposX, TposY + 25 + ButtonHeight, ButtonWidth, ButtonHeight);
+            Button5 = new Button(RposX, TposY + 65, ButtonWidth, ButtonHeight);
+            Button6 = new Button(RposX, TposY + 65 + ButtonHeight, ButtonWidth, ButtonHeight);
         }
 
         public override void DrawFrame()
@@ -52,7 +55,22 @@ namespace Polinom_Plot
 
         public void DrawDashboard()
         {
-            //TODO: Write the code!
+            Fill(255);
+            TextSize(15);
+
+            Text("f(x) = " + A + " * x^2 + " + B + " * x + " + C, TposX, TposY - 40);
+
+            Text("A = " + A, TposX, TposY);
+            DrawButton(Button1);
+            DrawButton(Button2);
+
+            Text("B = " + B, TposX, TposY + 40);
+            DrawButton(Button3);
+            DrawButton(Button4);
+
+            Text("C = " + C, TposX, TposY + 80);
+            DrawButton(Button5);
+            DrawButton(Button6);
         }
 
         public void DrawButton(Button b)
